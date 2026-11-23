@@ -7,7 +7,7 @@ Envie **o conteúdo desta pasta** para a raiz do repositório GitHub. O arquivo 
 ## Configuração na Netlify
 
 - Base directory: deixe em branco (raiz do repositório)
-- Build command: `npm install --include=dev && npm run build`
+- Build command: `npm run build`
 - Publish directory: `client/dist`
 - Node version: `20`
 

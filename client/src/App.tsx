@@ -7,7 +7,7 @@ const initialProducts: Product[] = [
   {id:1,coins:'5.000',price:'48,90'},
   {id:2,coins:'10.000',price:'97,80',tag:'MAIS PROCURADO',featured:true},
   {id:3,coins:'20.000',price:'192,90',tag:'MELHOR ESCOLHA'},
-  {id:4,coins:'30.000',price:'285,90'},
+  {id:4,coins:'30.000',price:'288,90'},
   {id:5,coins:'50.000',price:'479,90',tag:'PARA QUEM QUER MAIS'}
 ];
 const whatsapp = '5531986600292';

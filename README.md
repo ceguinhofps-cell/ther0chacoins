@@ -21,11 +21,13 @@ npm install
 npm run build
 ```
 
+Para desenvolvimento local (vitrine + API), instale as dependências de cada pasta com `npm run install:all` e depois rode `npm run dev`.
+
 Depois arraste somente a pasta `client/dist` para https://app.netlify.com/drop. Para esse modo, o build deve ser executado novamente antes de cada envio.
 
 ## Conteúdo da vitrine
 
-- Pacotes: 5.000 (R$ 48,90), 10.000 (R$ 97,80), 20.000 (R$ 192,90), 30.000 (R$ 285,90) e 50.000 (R$ 479,90).
+- Pacotes: 5.000 (R$ 48,90), 10.000 (R$ 97,80), 20.000 (R$ 192,90), 30.000 (R$ 288,90) e 50.000 (R$ 479,90).
 - Links de compra direcionam para o WhatsApp `+55 31 98660-0292`.
 - Layout adaptado para desktop e celular.
 - Personagem KC incluído em `client/src/assets/personagem-kc.png`.

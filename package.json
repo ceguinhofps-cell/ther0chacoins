@@ -1,7 +1,12 @@
 {
   "name": "therocha-coins-store",
   "private": true,
-  "workspaces": ["client", "server"],
-  "scripts": {"dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"", "dev:client": "npm --workspace client run dev", "dev:server": "npm --workspace server run dev", "build": "npm --workspace client run build"},
+  "scripts": {
+    "install:all": "npm install --prefix client --include=dev && npm install --prefix server --include=dev",
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm install --prefix client --include=dev && npm --prefix client run build"
+  },
   "devDependencies": {"concurrently": "^9.1.2"}
 }
